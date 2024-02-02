@@ -26,8 +26,8 @@ final class ViewController: UIViewController {
         NSLayoutConstraint.activate([
             shadowView.widthAnchor.constraint(equalToConstant: 100),
             shadowView.heightAnchor.constraint(equalToConstant: 100),
-            shadowView.centerYAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerYAnchor),
-            shadowView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 100),
+            shadowView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            shadowView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 100),
         ])
     }
 }
