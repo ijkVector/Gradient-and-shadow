@@ -9,12 +9,13 @@ import UIKit
 
 final class ShadowView: UIView {
     
+    private let gradientView = GradientView()
+    
     var cornerRadius: CGFloat = 10.0 {
         didSet {
             gradientView.layer.cornerRadius = cornerRadius
         }
     }
-    private let gradientView = GradientView()
     
     override init(frame: CGRect) {
         super.init(frame: frame)

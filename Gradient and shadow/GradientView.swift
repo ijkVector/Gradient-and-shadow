@@ -36,7 +36,7 @@ final class GradientView: UIView {
     }
     
     private func setupRounding() {
-        self.layer.cornerRadius = 8
+        self.layer.cornerRadius = 10.0
         self.clipsToBounds = true
     }
 }
